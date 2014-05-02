@@ -7976,23 +7976,32 @@ small {
   -webkit-box-shadow: 0 0 49px 49px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 49px 49px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
+  position: relative;
 }
-/* line 76, ../sass/_gamestyles.scss */
+/* line 77, ../sass/_gamestyles.scss */
 .circle.yellow {
   background-color: #fae80b;
 }
-/* line 80, ../sass/_gamestyles.scss */
+/* line 81, ../sass/_gamestyles.scss */
 .circle.intro {
   margin-left: -50px;
 }
-/* line 84, ../sass/_gamestyles.scss */
+/* line 85, ../sass/_gamestyles.scss */
+.circle.enter {
+  width: 362px;
+  height: 362px;
+  position: absolute;
+  bottom: -200px;
+  right: -150px;
+}
+/* line 94, ../sass/_gamestyles.scss */
 .circle p {
   font-size: 40px;
   color: #30bbc0;
   line-height: 38px;
   font-family: "Noblee", Helvetica, Arial, sans-serif;
 }
-/* line 91, ../sass/_gamestyles.scss */
+/* line 101, ../sass/_gamestyles.scss */
 .circle h1 {
   margin: 0 auto;
   display: inline-block;
@@ -8000,7 +8009,7 @@ small {
   font-size: 120px;
   line-height: 80px;
 }
-/* line 99, ../sass/_gamestyles.scss */
+/* line 109, ../sass/_gamestyles.scss */
 .circle small {
   font-size: 58px;
   display: inline-block;

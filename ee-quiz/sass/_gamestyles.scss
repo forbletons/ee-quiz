@@ -32,9 +32,9 @@ body {
     bottom:20px;
     left:50px;
 
-    &:hover {
-      text-decoration: none;
-    }
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
 }
@@ -72,6 +72,7 @@ small {
   -webkit-box-shadow: 0 0 49px 49px rgba(0,0,0,0.1);
   box-shadow: 0 0 49px 49px rgba(0,0,0,0.1);
   text-transform: uppercase;
+  position:relative;
 
   &.yellow {
     background-color:$brand-yellow;
@@ -79,6 +80,15 @@ small {
 
   &.intro {
     margin-left:-50px;
+  }
+
+  &.enter {
+    width:362px;
+    height:362px;
+    position:absolute;
+    bottom:-200px;
+    right:-150px;
+
   }
 
   p {
