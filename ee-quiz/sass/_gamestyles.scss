@@ -1,5 +1,6 @@
 body {
   background-color:$brand-primary;
+  overflow: hidden;
 
   &.balls {
     background-image:url('../images/balls.png');
@@ -9,12 +10,26 @@ body {
   &.home {
 
     .circle {
-      margin-top:100px;
+      
+
+      &.enter {
+        top: -90px;
+        left:300px;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+      }
     }
 
     h1 {
       margin-top:40px;
     }
+  }
+
+  .circleposition {
+    position:relative;
+    height:auto;
+    text-align: center;
   }
 
   .logo {
@@ -28,9 +43,7 @@ body {
     a {
     color:$brand-yellow;
     font-size: 36px;
-    position:absolute;
-    bottom:20px;
-    left:50px;
+    margin:0 0 20px 20px;
 
       &:hover {
         text-decoration: none;
@@ -63,6 +76,11 @@ small {
   background-color:$gray-darker;
 }
 
+.vcenter {
+  display: table-cell;
+  vertical-align: middle;
+}
+
 .circle {
   border-radius: 50%;
   width: 500px;
@@ -73,29 +91,41 @@ small {
   box-shadow: 0 0 49px 49px rgba(0,0,0,0.1);
   text-transform: uppercase;
   position:relative;
+  display: table;
 
   &.yellow {
     background-color:$brand-yellow;
   }
 
   &.intro {
-    margin-left:-50px;
+    left:-50px;
+    top:100px;
   }
 
-  &.enter {
-    width:362px;
-    height:362px;
-    position:absolute;
-    bottom:-200px;
-    right:-150px;
-
-  }
+  
 
   p {
     font-size:40px;
     color:$brand-primary;
     line-height:38px;
     font-family: $font-family-sans-serif;
+  }
+
+  a {
+    display: block;
+    text-transform: uppercase;
+     &.primary {
+      font-size: 46px;
+     }
+     &.link {
+      font-size: 34px;
+     }
+  }
+
+  &.enter {
+    width:362px;
+    height:362px;
+    padding:30px;
   }
 
   h1 {

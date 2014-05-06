@@ -7906,67 +7906,82 @@ button.close {
 /* line 1, ../sass/_gamestyles.scss */
 body {
   background-color: #30bbc0;
+  overflow: hidden;
 }
-/* line 4, ../sass/_gamestyles.scss */
+/* line 5, ../sass/_gamestyles.scss */
 body.balls {
   background-image: url("../images/balls.png");
   background-position: center;
 }
-/* line 11, ../sass/_gamestyles.scss */
-body.home .circle {
-  margin-top: 100px;
-}
 /* line 15, ../sass/_gamestyles.scss */
+body.home .circle.enter {
+  top: -90px;
+  left: 300px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/* line 24, ../sass/_gamestyles.scss */
 body.home h1 {
   margin-top: 40px;
 }
-/* line 20, ../sass/_gamestyles.scss */
+/* line 29, ../sass/_gamestyles.scss */
+body .circleposition {
+  position: relative;
+  height: auto;
+  text-align: center;
+}
+/* line 35, ../sass/_gamestyles.scss */
 body .logo {
   position: absolute;
   top: 20px;
   right: 20px;
 }
-/* line 28, ../sass/_gamestyles.scss */
+/* line 43, ../sass/_gamestyles.scss */
 body footer a {
   color: #fae80b;
   font-size: 36px;
-  position: absolute;
-  bottom: 20px;
-  left: 50px;
+  margin: 0 0 20px 20px;
 }
-/* line 35, ../sass/_gamestyles.scss */
+/* line 48, ../sass/_gamestyles.scss */
 body footer a:hover {
   text-decoration: none;
 }
 
-/* line 42, ../sass/_gamestyles.scss */
+/* line 55, ../sass/_gamestyles.scss */
 h1 {
   color: #30bbc0;
   font-family: "Noblee", Helvetica, Arial, sans-serif;
 }
 
-/* line 47, ../sass/_gamestyles.scss */
+/* line 60, ../sass/_gamestyles.scss */
 small {
   color: #30bbc0;
   font-family: "Noblee", Helvetica, Arial, sans-serif;
 }
 
-/* line 52, ../sass/_gamestyles.scss */
+/* line 65, ../sass/_gamestyles.scss */
 .page-header {
   background-color: #30bbc0;
 }
 
-/* line 56, ../sass/_gamestyles.scss */
+/* line 69, ../sass/_gamestyles.scss */
 .mainContent {
   background: #30bbc0;
 }
 
-/* line 62, ../sass/_gamestyles.scss */
+/* line 75, ../sass/_gamestyles.scss */
 .list-group {
   background-color: #222222;
 }
 
-/* line 66, ../sass/_gamestyles.scss */
+/* line 79, ../sass/_gamestyles.scss */
+.vcenter {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 84, ../sass/_gamestyles.scss */
 .circle {
   border-radius: 50%;
   width: 500px;
@@ -7977,31 +7992,44 @@ small {
   box-shadow: 0 0 49px 49px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
   position: relative;
+  display: table;
 }
-/* line 77, ../sass/_gamestyles.scss */
+/* line 96, ../sass/_gamestyles.scss */
 .circle.yellow {
   background-color: #fae80b;
 }
-/* line 81, ../sass/_gamestyles.scss */
+/* line 100, ../sass/_gamestyles.scss */
 .circle.intro {
-  margin-left: -50px;
+  left: -50px;
+  top: 100px;
 }
-/* line 85, ../sass/_gamestyles.scss */
-.circle.enter {
-  width: 362px;
-  height: 362px;
-  position: absolute;
-  bottom: -200px;
-  right: -150px;
-}
-/* line 94, ../sass/_gamestyles.scss */
+/* line 107, ../sass/_gamestyles.scss */
 .circle p {
   font-size: 40px;
   color: #30bbc0;
   line-height: 38px;
   font-family: "Noblee", Helvetica, Arial, sans-serif;
 }
-/* line 101, ../sass/_gamestyles.scss */
+/* line 114, ../sass/_gamestyles.scss */
+.circle a {
+  display: block;
+  text-transform: uppercase;
+}
+/* line 117, ../sass/_gamestyles.scss */
+.circle a.primary {
+  font-size: 46px;
+}
+/* line 120, ../sass/_gamestyles.scss */
+.circle a.link {
+  font-size: 34px;
+}
+/* line 125, ../sass/_gamestyles.scss */
+.circle.enter {
+  width: 362px;
+  height: 362px;
+  padding: 30px;
+}
+/* line 131, ../sass/_gamestyles.scss */
 .circle h1 {
   margin: 0 auto;
   display: inline-block;
@@ -8009,7 +8037,7 @@ small {
   font-size: 120px;
   line-height: 80px;
 }
-/* line 109, ../sass/_gamestyles.scss */
+/* line 139, ../sass/_gamestyles.scss */
 .circle small {
   font-size: 58px;
   display: inline-block;
