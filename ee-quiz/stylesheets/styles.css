@@ -1634,7 +1634,7 @@ p {
   font-weight: 200;
   line-height: 1.4;
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   /* line 62, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_type.scss */
   .lead {
     font-size: 21px;
@@ -1858,7 +1858,7 @@ dd {
 .dl-horizontal dd:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   /* line 201, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_type.scss */
   .dl-horizontal dt {
     float: left;
@@ -2031,7 +2031,7 @@ pre code {
 .container:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   /* line 10, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_grid.scss */
   .container {
     width: 750px;
@@ -2350,7 +2350,7 @@ pre code {
   margin-left: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   /* line 33, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
@@ -3340,7 +3340,7 @@ table th[class*="col-"] {
   background-color: #ebcccc;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 766px) {
   /* line 171, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_tables.scss */
   .table-responsive {
     width: 100%;
@@ -3854,7 +3854,7 @@ select[multiple].input-lg,
   color: #737373;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   /* line 363, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_forms.scss */
   .form-inline .form-group, .navbar-form .form-group {
     display: inline-block;
@@ -3945,7 +3945,7 @@ select[multiple].input-lg,
   padding-top: 7px;
   padding-bottom: 7px;
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   /* line 463, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_forms.scss */
   .form-horizontal .control-label {
     text-align: right;
@@ -4440,7 +4440,7 @@ tbody.collapse.in {
   margin-bottom: 1px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   /* line 204, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
   .navbar-right .dropdown-menu {
     right: 0;
@@ -4968,7 +4968,7 @@ tbody.collapse.in {
   top: auto;
   left: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   /* line 177, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navs.scss */
   .nav-justified > li, .nav-tabs.nav-justified > li {
     display: table-cell;
@@ -4997,7 +4997,7 @@ tbody.collapse.in {
 .nav-tabs.nav-justified > .active > a:focus {
   border: 1px solid #dddddd;
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   /* line 206, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navs.scss */
   .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
     border-bottom: 1px solid #dddddd;
@@ -5045,7 +5045,7 @@ tbody.collapse.in {
 .navbar:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   /* line 11, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar {
     border-radius: 4px;
@@ -5061,7 +5061,7 @@ tbody.collapse.in {
 .navbar-header:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   /* line 31, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-header {
     float: left;
@@ -5090,7 +5090,7 @@ tbody.collapse.in {
 .navbar-collapse.in {
   overflow-y: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   /* line 50, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-collapse {
     width: auto;
@@ -5120,7 +5120,7 @@ tbody.collapse.in {
 .navbar-fixed-bottom .navbar-collapse {
   max-height: 340px;
 }
-@media (max-width: 480px) and (orientation: landscape) {
+@media (max-width: 479px) and (orientation: landscape) {
   /* line 92, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-fixed-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
@@ -5136,7 +5136,7 @@ tbody.collapse.in {
   margin-right: -15px;
   margin-left: -15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   /* line 109, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .container > .navbar-header,
   .container > .navbar-collapse,
@@ -5152,7 +5152,7 @@ tbody.collapse.in {
   z-index: 1000;
   border-width: 0 0 1px;
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   /* line 128, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-static-top {
     border-radius: 0;
@@ -5167,7 +5167,7 @@ tbody.collapse.in {
   left: 0;
   z-index: 1030;
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   /* line 139, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-fixed-top,
   .navbar-fixed-bottom {
@@ -5200,7 +5200,7 @@ tbody.collapse.in {
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   /* line 177, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
@@ -5235,7 +5235,7 @@ tbody.collapse.in {
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   /* line 189, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-toggle {
     display: none;
@@ -5252,7 +5252,7 @@ tbody.collapse.in {
   padding-bottom: 10px;
   line-height: 20px;
 }
-@media (max-width: 767px) {
+@media (max-width: 766px) {
   /* line 239, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu {
     position: static;
@@ -5277,7 +5277,7 @@ tbody.collapse.in {
     background-image: none;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   /* line 228, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav {
     float: left;
@@ -5298,7 +5298,7 @@ tbody.collapse.in {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   /* line 288, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-left {
     float: left !important;
@@ -5321,13 +5321,13 @@ tbody.collapse.in {
   margin-top: 8px;
   margin-bottom: 8px;
 }
-@media (max-width: 767px) {
+@media (max-width: 766px) {
   /* line 314, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-form .form-group {
     margin-bottom: 5px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   /* line 302, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-form {
     width: auto;
@@ -5379,7 +5379,7 @@ tbody.collapse.in {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   /* line 374, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-text {
     float: left;
@@ -5451,7 +5451,7 @@ tbody.collapse.in {
   background-color: #e7e7e7;
   color: #555555;
 }
-@media (max-width: 767px) {
+@media (max-width: 766px) {
   /* line 469, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777777;
@@ -5552,7 +5552,7 @@ tbody.collapse.in {
   background-color: #090909;
   color: white;
 }
-@media (max-width: 767px) {
+@media (max-width: 766px) {
   /* line 603, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #090909;
@@ -5947,7 +5947,7 @@ a.badge:hover, a.badge:focus {
 .jumbotron .container {
   max-width: 100%;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   /* line 6, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_jumbotron.scss */
   .jumbotron {
     padding-top: 48px;
@@ -7039,7 +7039,7 @@ button.close {
   overflow: scroll;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   /* line 133, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_modals.scss */
   .modal-dialog {
     width: 600px;
@@ -7520,7 +7520,7 @@ button.close {
   text-shadow: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   /* line 214, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_carousel.scss */
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
@@ -7641,7 +7641,7 @@ button.close {
   display: none !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 766px) {
   /* line 7, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .visible-xs {
     display: block !important;
@@ -7663,28 +7663,28 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 766px) {
   /* line 48, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-xs-block {
     display: block !important;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 766px) {
   /* line 53, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-xs-inline {
     display: inline !important;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 766px) {
   /* line 58, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-xs-inline-block {
     display: inline-block !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 767px) and (max-width: 991px) {
   /* line 7, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .visible-sm {
     display: block !important;
@@ -7706,21 +7706,21 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 767px) and (max-width: 991px) {
   /* line 67, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-sm-block {
     display: block !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 767px) and (max-width: 991px) {
   /* line 72, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-sm-inline {
     display: inline !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 767px) and (max-width: 991px) {
   /* line 77, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-sm-inline-block {
     display: inline-block !important;
@@ -7813,13 +7813,13 @@ button.close {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 766px) {
   /* line 18, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-xs {
     display: none !important;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 767px) and (max-width: 991px) {
   /* line 18, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-sm {
     display: none !important;
@@ -7904,142 +7904,168 @@ button.close {
   }
 }
 /* line 1, ../sass/_gamestyles.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 4, ../sass/_gamestyles.scss */
 body {
   background-color: #30bbc0;
-  overflow: hidden;
 }
-/* line 5, ../sass/_gamestyles.scss */
+/* line 7, ../sass/_gamestyles.scss */
 body.balls {
   background-image: url("../images/balls.png");
   background-position: center;
 }
-/* line 15, ../sass/_gamestyles.scss */
-body.home .circle.enter {
-  top: -90px;
-  left: 300px;
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
+/* line 12, ../sass/_gamestyles.scss */
+body #wrapper {
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
 }
-/* line 24, ../sass/_gamestyles.scss */
-body.home h1 {
-  margin-top: 40px;
-}
-/* line 29, ../sass/_gamestyles.scss */
+/* line 18, ../sass/_gamestyles.scss */
 body .circleposition {
+  overflow: hidden;
+  height: 100%;
+  min-width: 320px;
   position: relative;
-  height: auto;
-  text-align: center;
 }
-/* line 35, ../sass/_gamestyles.scss */
-body .logo {
+/* line 25, ../sass/_gamestyles.scss */
+body .circleHolder {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 50%;
+  left: 50%;
+  margin-left: -170px;
+  margin-top: -190px;
 }
-/* line 43, ../sass/_gamestyles.scss */
+/* line 33, ../sass/_gamestyles.scss */
+body .logo {
+  background: url("../images/EE_xs.png") no-repeat;
+  display: block;
+  width: 58px;
+  height: 93px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+}
+/* line 44, ../sass/_gamestyles.scss */
+body footer {
+  position: absolute;
+  bottom: 20px;
+}
+/* line 47, ../sass/_gamestyles.scss */
 body footer a {
   color: #fae80b;
-  font-size: 36px;
-  margin: 0 0 20px 20px;
+  font-size: 18px;
+  margin: -160px 0 20px 20px;
 }
-/* line 48, ../sass/_gamestyles.scss */
+/* line 52, ../sass/_gamestyles.scss */
 body footer a:hover {
   text-decoration: none;
 }
 
-/* line 55, ../sass/_gamestyles.scss */
+/* line 63, ../sass/_gamestyles.scss */
 h1 {
   color: #30bbc0;
   font-family: "Noblee", Helvetica, Arial, sans-serif;
 }
 
-/* line 60, ../sass/_gamestyles.scss */
+/* line 68, ../sass/_gamestyles.scss */
 small {
   color: #30bbc0;
   font-family: "Noblee", Helvetica, Arial, sans-serif;
 }
 
-/* line 65, ../sass/_gamestyles.scss */
+/* line 73, ../sass/_gamestyles.scss */
 .page-header {
   background-color: #30bbc0;
 }
 
-/* line 69, ../sass/_gamestyles.scss */
+/* line 77, ../sass/_gamestyles.scss */
 .mainContent {
   background: #30bbc0;
 }
 
-/* line 75, ../sass/_gamestyles.scss */
+/* line 81, ../sass/_gamestyles.scss */
 .list-group {
   background-color: #222222;
 }
 
-/* line 79, ../sass/_gamestyles.scss */
+/* line 86, ../sass/_gamestyles.scss */
 .vcenter {
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 84, ../sass/_gamestyles.scss */
+/* line 91, ../sass/_gamestyles.scss */
 .circle {
   border-radius: 50%;
-  width: 500px;
-  height: 500px;
-  padding: 90px;
-  -moz-box-shadow: 0 0 49px 49px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 0 49px 49px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 49px 49px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 300px;
+  padding: 40px 24px 40px 56px;
   text-transform: uppercase;
   position: relative;
   display: table;
 }
-/* line 96, ../sass/_gamestyles.scss */
+/* line 103, ../sass/_gamestyles.scss */
 .circle.yellow {
   background-color: #fae80b;
 }
-/* line 100, ../sass/_gamestyles.scss */
-.circle.intro {
-  left: -50px;
-  top: 100px;
+/* line 108, ../sass/_gamestyles.scss */
+.circle.intro .enter {
+  position: absolute;
+  bottom: -100px;
+  right: -40px;
 }
-/* line 107, ../sass/_gamestyles.scss */
+/* line 115, ../sass/_gamestyles.scss */
 .circle p {
-  font-size: 40px;
+  font-size: 23px;
   color: #30bbc0;
-  line-height: 38px;
+  line-height: 24px;
   font-family: "Noblee", Helvetica, Arial, sans-serif;
+  text-align: left;
+  margin-left: 6px;
+  margin-top: 8px;
 }
-/* line 114, ../sass/_gamestyles.scss */
+/* line 125, ../sass/_gamestyles.scss */
 .circle a {
   display: block;
   text-transform: uppercase;
 }
-/* line 117, ../sass/_gamestyles.scss */
+/* line 128, ../sass/_gamestyles.scss */
 .circle a.primary {
   font-size: 46px;
 }
-/* line 120, ../sass/_gamestyles.scss */
+/* line 131, ../sass/_gamestyles.scss */
 .circle a.link {
   font-size: 34px;
 }
-/* line 125, ../sass/_gamestyles.scss */
+/* line 136, ../sass/_gamestyles.scss */
 .circle.enter {
-  width: 362px;
-  height: 362px;
-  padding: 30px;
+  width: 184px;
+  height: 184px;
+  padding: 20px;
 }
-/* line 131, ../sass/_gamestyles.scss */
+/* line 143, ../sass/_gamestyles.scss */
+.circle.enter a.primary {
+  font-size: 23px;
+}
+/* line 146, ../sass/_gamestyles.scss */
+.circle.enter a.link {
+  font-size: 17px;
+}
+/* line 152, ../sass/_gamestyles.scss */
 .circle h1 {
-  margin: 0 auto;
+  margin: 40px auto 0;
   display: inline-block;
-  vertical-align: middle;
-  font-size: 120px;
-  line-height: 80px;
+  font-size: 60px;
+  line-height: 40px;
 }
-/* line 139, ../sass/_gamestyles.scss */
+/* line 159, ../sass/_gamestyles.scss */
 .circle small {
-  font-size: 58px;
+  font-size: 35px;
+  line-height: 34px;
   display: inline-block;
   vertical-align: middle;
 }
